@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,64 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
 }
+
+/* Ensure the root div takes up full viewport height */
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f0f0f0; /* Replace with your desired color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-content{
+  height: 100%;
+  width: 100%;
+}
+
+.tail-head{
+  color: #e47073;
+}
+
+.tail-head-nav{
+  color: #e47073 !important;
+}
+
+.tail-head-nav:hover{
+  color: #e47073 !important;
+}
+
+/* .ant-table-cell{
+  background-color: #f0f0f0;
+} */
+
+
+
+
+
+.login-card{
+  width: 40%;
+}
+.login-btn{
+  background-color: #282d2d;
+  color: #f0f0f0;
+  width: 200px;
+}
+.login-btn:hover{
+  background-color: #282d2d;
+}
+@media (max-width: 720px) {
+  .login-card {
+      
+      width: 80%;
+  }
+} 
